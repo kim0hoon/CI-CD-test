@@ -1,4 +1,4 @@
-name: PR_rules
+name: Android CI
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-
+    name: PR_rules
     runs-on: ubuntu-latest
 
     steps:
