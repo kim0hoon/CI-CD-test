@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-    name: PR_rules
     runs-on: ubuntu-latest
 
     steps:
