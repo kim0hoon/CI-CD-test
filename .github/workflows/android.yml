@@ -2,11 +2,10 @@ name: Android CI
 
 on:
   pull_request:
-    branches: [test2]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
